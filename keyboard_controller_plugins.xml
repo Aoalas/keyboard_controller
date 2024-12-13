@@ -1,0 +1,12 @@
+<library path="lib/libkeyboard_controller">
+
+  <class name="keyboard_controller/KeyBoardController"
+         type="keyboard_controller::KeyBoardController"
+         base_class_type="controller_interface::ControllerBase">
+    <description>
+      The SimpleChassisController is RoboMaster standard robot Chassis controller. It expects a EffortJointInterface
+      type of hardware interface.
+    </description>
+  </class>
+
+</library>
